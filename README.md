@@ -21,13 +21,13 @@ The rest of the colors are for Agents.
 The first value is the color of the Agent and the second is the color of
 its footprint*
 ### 3\.1.2 Class agent: 
-`  `*The agents can be placed on the maze.
+*The agents can be placed on the maze.
 They can represent the virtual object just to indcate the cell selected in Maze.
 Or they can be the physical agents (like robots)
 They can have two shapes (square or arrow)*
 
 def \_\_init\_\_(self, parentMaze, x=None, y=None, shape='square', goal=None, filled=False, footprints=False,
-`             `color: COLOR = COLOR.blue):
+color: COLOR = COLOR.blue):
 
 `    `*parentmaze-->  The maze on which agent is placed.
 `    `x,y-->  Position of the agent i.e. cell inside which agent will be placed
