@@ -99,10 +99,10 @@ def CreateMaze(self, x=1, y=1, pattern=None, loopPercent=0, saveMaze=False, load
 `    `theme--> Dark or Light*
 ##### def tracePath
 def tracePath(self, d, kill=False, delay=300, showMarked=False):
-`    `*'''
-`    `A method to trace path by agent
-`    `You can provide more than one agent/path details
-`    `'''*
+*'''
+A method to trace path by agent
+You can provide more than one agent/path details
+'''*
 ##### def run(self):
 def run(self):
 `    `*'''
@@ -151,13 +151,3 @@ All of mazes Tested Solved Correctly
 - DFS (cyan path): 0.131789 Sec
 - BFS (yellow path): 6.28055 Sec
 - A-Star (blue arrow path): 1.0809 Sec
-
-![A screen shot of a computer screen
-
-Description automatically generated with low confidence](Aspose.Words.98b308ca-a1e5-4dc5-b0a6-05ddbbe14aa5.005.png)
-
-*Figure 5: Comparison between all Algorithems***
-
-
-
-
